@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Television control experiment (30 subjects, 4 classes, 31 EEG ch)",
-  "description": "EEG dataset from 30 healthy participants performing an ERP-based (P300) brain-computer interface task for controlling a television as a home appliance. A four-class visual oddball paradigm was presented on an LCD display, with target and non-target flashes recorded from 31 EEG channels at 500 Hz. Each subject completed training and online testing blocks with visual feedback, supporting research on BCI-based home appliance control and inter-subject transfer learning.",
-  "methods_description": "EEG was recorded with an actiCHamp (Brain Products) amplifier using 31 active electrodes placed according to the 10-20 system, sampled at 500 Hz with linked-mastoid reference. Visual flash stimuli with a 750 ms stimulus onset asynchrony were presented on an LCD display in a four-class oddball paradigm. Each subject completed 50 training and 30 online testing blocks with visual feedback.",
+  "description": "EEG recordings from 30 healthy participants performing an online P300-based brain-computer interface task for controlling a television. Participants attended to flashing visual stimuli in a 4-class oddball paradigm shown on an LCD display. Data were recorded from 31 EEG channels at 500 Hz, with 50 training and 30 testing blocks per subject. The dataset was designed to support home appliance control and inter-subject transfer learning research.",
+  "methods_description": "EEG was recorded with an actiCHamp (Brain Products) amplifier using 31 active electrodes placed according to the 10-20 system, referenced to linked mastoids, at a 500 Hz sampling rate. Visual flash stimuli were presented on an LCD with a 750 ms stimulus onset asynchrony. Each subject completed 50 training and 30 testing blocks in a single session with online visual feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,7 +21,14 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "P300"
@@ -30,16 +37,7 @@
       "term": "event-related potentials"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "home appliance control"
-    },
-    {
-      "term": "visual oddball"
     },
     {
       "term": "transfer learning"
@@ -89,5 +87,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e691eb782ec3456111ddd6a1cde3818a3153b3fa3f932ba84e3b9c767f868532"
+  "source_hash": "a5881727353e010c0f660a547ee64a1e5cba0f9620f3ca3261d66fe9644de5a2"
 }
